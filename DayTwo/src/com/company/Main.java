@@ -19,6 +19,7 @@ public class Main {
             totalScore += computeHandPartTwo(splits[0], splits[1]);
         }
         System.out.println(totalScore);
+        scanner.close();
 
     }
 
